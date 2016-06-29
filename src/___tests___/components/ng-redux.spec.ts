@@ -30,9 +30,6 @@ describe('Connector', () => {
       return newState;
     };
     targetObj = {};
-    mockAppRef = {
-      tick: sinon.spy()
-    };
     ngRedux = new NgRedux();
     ngRedux.configureStore(rootReducer, defaultState);
   });
