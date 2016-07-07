@@ -151,6 +151,7 @@ describe('NgRedux Observable Store', () => {
       }
     };
 
+    store = createStore(rootReducer);
     ngRedux = new NgRedux<IAppState>();
     store = createStore(rootReducer);
     ngRedux.configureStore(rootReducer, defaultState);
