@@ -1,5 +1,8 @@
 # ng2-redux
 
+This is a fork of [NgRedux](https://github.com/angular-redux/ng2-redux) that adds a `provideStore` method
+that will hopefully soon get merged into that project.
+
 Angular 2 bindings for [Redux](https://github.com/reactjs/redux).
 
 For Angular 1 see [ng-redux](https://github.com/wbuchwalter/ng-redux)
